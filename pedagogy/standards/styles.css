@@ -1,0 +1,40 @@
+.table {
+    width: 80%;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.cell, .header {
+    padding: 10px;
+    /* text-transform: capitalize; */
+    text-decoration: none;
+    background-clip: padding-box; /* this has been added */
+    border-radius: 80px;
+}
+
+.header{
+    background-color: bisque;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.header {
+    column-span: all;
+    font-family: 'Anton', sans-serif;
+}
+
+.cell {
+    font-family: 'Asap', sans-serif;
+}
+
+#center {
+    position:relative;
+}
+footer {
+    text-align: center;
+}
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+}

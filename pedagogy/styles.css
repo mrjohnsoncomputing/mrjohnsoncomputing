@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  height: 90vh;
+  margin-top:5vh;
+  margin-bottom: auto;
+  position: absolute;
+  display: inline-block;
+  left: 205px;
+
+}
+
+#navigation {
+  position: relative;
+  float: left;
+  width: 200px;
+  top: 5vh;
+}
+
+th {
+  font-size: 40px;
+  padding: 5px;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+  background-color: white; 
+  font-size: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  cursor: default;
+}
+
+td:hover {
+  background-color: linen; 
+  cursor: pointer;
+}
+
+tr {
+  margin-top: 50px;
+}

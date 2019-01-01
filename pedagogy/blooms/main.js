@@ -53,7 +53,7 @@ function displayInfoBox(d) {
     let infoBox = document.getElementById("info-box");
     dom.killChildren(infoBox);
     infoBox.style.left = td.offsetParent.offsetLeft + td.offsetLeft + "px";
-    infoBox.style.top = td.offsetParent.offsetTop + td.offsetTop - (td.offsetHeight*2) +  "px";
+    infoBox.style.top = td.offsetParent.offsetTop + td.offsetTop + (td.offsetHeight*1.5) +  "px";
     let newP = document.createElement("P");
     newP.innerHTML = d;
     newP.classList.add("infoText"); 
