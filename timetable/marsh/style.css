@@ -1,0 +1,52 @@
+body {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+td {
+    padding:10px;
+    border: solid rgb(133, 133, 133) 1px;
+    width: 100px;
+    height: 50px;
+    
+}
+
+td:hover{
+    background-color: darkgray;
+}
+
+th {
+    font-weight: bolder;
+}
+
+table {
+    padding: 10px;
+    width: 600px;
+    text-align: center;
+    vertical-align: middle;
+    background: white;
+}
+
+#tableHeadTemplate, #trTemplate {
+    display: none;
+    visibility: hidden;
+}
+
+#info-box {
+    display: none;
+    padding: 10px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    min-width: 100px;
+    min-height: 50px;
+    left: 100;
+    top: 100;
+    background-color: orange;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.infoText {
+    margin: 0px 10px;
+}

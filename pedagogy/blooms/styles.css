@@ -1,0 +1,28 @@
+.table {
+    width: 80%;
+    margin: 20px;
+}
+
+.cell, .header {
+    padding: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-clip: padding-box; /* this has been added */
+    border-radius: 80px;
+}
+
+.cell:hover, .header:hover {
+    background-color: bisque;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.header {
+    column-span: all;
+    font-family: 'Anton', sans-serif;
+}
+
+.cell {
+    font-family: 'Asap', sans-serif;
+}
