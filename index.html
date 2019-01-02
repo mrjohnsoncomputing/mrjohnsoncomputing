@@ -11,43 +11,48 @@
     <meta name="ROBOTS" content="INDEX, FOLLOW">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Rajdhani" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="mainStyle.css" />
+    <script src="mainScript.js"></script>
 </head>
 <body>
 <center>
     <div id="titleBar">
         <h1 class="title">Mr Johnson</br>Computing</h1>
     </div>
-
-    <div class="contentBlock HTMLRollover" onclick="window.location='html/index.html'">
-        <h2 class="subtitle">HTML</h2>
-        <!-- <img class="contentBlockThumb" src=""> -->
-        <p>Reference materials and activities for HTML lessons, including:
+    <div class="contentBlock" onclick="navigate('computerScience')">
+        <h1 class="subtitle">Computer Science</h1>
+        <p>
+            Computer Science is the study of how computers work, from machine code to high level programming and the hardware that runs it all.
+        </p>
+        <p>
+            Topics include:
             <ul>
-                <li>RGB Color Picker</li>
-                <li>HTML Template</li>
-                <li>HTML Reference Guide</li>
+                <li>Binary</li>
+                <li>CPU & other components</li>
+                <li>Machine Code</li>
+                <li>Programming</li>
+                <li>Networks</li>
+                <li>Cyber Security</li>
+                <li>Ethics & Laws in Computing</li>
             </ul>
         </p>
     </div>
-
-    <div class="contentBlock photoshopRollover">
-        <h2 class="subtitle">Photoshop</h2>
-        <!-- <img class="contentBlockThumb" src=""> -->
-        <p>Reference materials for Photoshop lessons</p>
-    </div>
-
-    <div class="contentBlock scratchRollover" onclick="window.location='scratch/index.html'">
-        <h2 class="subtitle">Scratch</h2>
-        <!-- <img class="contentBlockThumb" src=""> -->
-        <p>Reference materials for Scratch lessons</p>
-    </div>
-
-    <div class="contentBlock eSafetyRollover" onclick="window.location='esafety/index.html'">
-        <h2 class="subtitle">E-safety</h2>
-        <!-- <img class="contentBlockThumb" src=""> -->
-        <p>Learn how to be safe online: the dangers, preventions and cures.</p>
+    <div class="contentBlock" onclick="navigate('ICT')">
+        <h1 class="subtitle">Information Technology</h1>
+        <p>
+            Information Technology is the creative use and mastery of computer applications.
+        </p>
+        <p>
+            Topics include:
+            <ul>
+                <li>Database Design</li>
+                <li>Networking</li>
+                <li>Modelling and Simulations</li>
+                <li>ICT Systems</li>
+                <li>Graphic Design</li>
+                <li>Word Processing & Office Software</li>
+            </ul>
+        </p>
     </div>
 </center>
 </body>

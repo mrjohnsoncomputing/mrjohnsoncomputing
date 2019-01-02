@@ -1,0 +1,107 @@
+  /* ####### */
+ /* Natives */
+/* ####### */
+body {
+    padding:0px;
+    margin:0px;
+    min-width: 500px;
+    background-color: #02577a;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h1 {
+    margin:0px;
+}
+
+ul {
+    position: relative;
+    left: 10vw;
+}
+
+li {
+    list-style-position: inside;
+    text-align: left;
+    font-size: 3vmin;
+}
+
+p {
+    font-size: 3vmin;
+}
+
+iframe {
+    border: none;
+    outline: none;
+    width: 99vw;
+    height: 78vh;
+    padding-top: 1vh;
+}
+
+  /* ####### */
+ /* Classes */
+/* ####### */
+
+.title {
+    vertical-align: middle;
+    color:#01303f;
+    font-family: 'Press Start 2P', cursive;
+    padding: 0px;
+    margin: 0px;
+    font-size: 4vh;
+    text-shadow:
+    -1px -1px 0 #02a9f7,
+    1px -1px 0 #02a9f7,
+    -1px 1px 0 #02a9f7,
+    1px 1px 0 #02a9f7;  
+}
+
+.subtitle {
+    font-size: 6vmin;
+    margin:0px;
+    display: inline;
+    text-align: center;
+}
+
+.contentBlock { 
+    background-image: none; 
+    background-repeat: no-repeat;
+    color:  #d4f0fc;
+    font-family: 'Rajdhani', sans-serif;
+    position:relative;
+    vertical-align: middle;
+    margin:0px;
+    padding:2vh;
+    width: 45vw;
+    height: 85vh;
+    background-color: #02577a;
+    display: inline-block;
+    outline: none;
+}
+
+
+.contentBlock:hover {
+    color:Black; 
+    background-color:#89d6fb;
+    cursor: pointer;
+    background-position: center;
+    outline: 3px solid black;
+}
+
+  /* ####### */
+ /* IDs */
+/* ####### */
+
+#titleBar {
+    position: relative;
+    vertical-align: middle;
+    height: 8vh;
+    background-color:#02a9f7;
+    padding:1vh;
+}
+
+#titleBar:hover {
+    background-color:#01303f;
+}
+
+
+
+
