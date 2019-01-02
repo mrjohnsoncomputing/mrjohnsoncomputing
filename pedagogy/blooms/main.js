@@ -15,6 +15,9 @@ function setup() {
             }
             newCell = dom.createElementWithClass("TD", "cell");
             newCell.innerText =blooms[stage][i];
+            newCell.addEventListener("click", function() {
+                window.open("https://www.wordnik.com/words/"+(event.srcElement.innerText.toLowerCase()));
+            })
             newCell.addEventListener("mouseover", function() {EVENT = event; getDefinition(this.innerHTML)});
             newCell.addEventListener("mouseout", clearInfo);
             newRow.appendChild(newCell);
