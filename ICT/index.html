@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mr Johnson Computing</title>
+    <title>Mr Johnson Computing - ICT</title>
     <meta name="title" content="Mr Johnson Computing">
     <meta name="google-site-verification" content="hBnUH3UYOuo_tqYc3ZQ1pIXlWPuDX8SOdnY3449CZpk" />
     <meta name="description" content="Resources and activities for secondary school ICT and Computer Science students.">
@@ -11,7 +11,10 @@
     <meta name="ROBOTS" content="INDEX, FOLLOW">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Rajdhani" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="../mainStyle.css" />
+    <script type="text/javascript" src="https://dalestevenjohnson.github.io/domOperations/domOperations.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="../mainScript.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
@@ -19,12 +22,57 @@
     <div id="titleBar">
         <h1 class="title">Mr Johnson</br>Computing</h1>
     </div>
-    <div>
-        <select name="" id="">
-            <option value="" selected></option>
-            <option value=""></option>
-        </select>
-    </div>
+    <nav class="navbar">
+        <a onclick="navigate('ict.html', 'contentFrame')">Home</a>
+        <a onclick="navigate('news', 'contentFrame')">News</a>
+        <div class="dropdown">
+            <button class="dropbtn">Media 
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a onclick="navigate('media/mediator', 'contentFrame')">Mediator</a>
+            <a onclick="navigate('media/photoshop', 'contentFrame')">Photoshop</a>
+            <a onclick="navigate('media/moviemaker', 'contentFrame')">Movie Maker</a>
+            
+            </div>
+        </div>
+        <!-- <div class="dropdown">
+            <button class="dropbtn">Programming 
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a onclick="navigate('programming/fundamentals', 'contentFrame')">Fundamentals</a>
+            <a onclick="navigate('programming/python', 'contentFrame')">Python</a>
+            <a onclick="navigate('programming/java', 'contentFrame')">Java</a>
+            <a onclick="navigate('programming/visualbasic', 'contentFrame')">Visual Basic</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Computer Systems 
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a onclick="navigate('programming/fundamentals', 'contentFrame')">Fundamentals</a>
+            <a onclick="navigate('programming/python', 'contentFrame')">Python</a>
+            <a onclick="navigate('programming/java', 'contentFrame')">Java</a>
+            <a onclick="navigate('programming/visualbasic', 'contentFrame')">Visual Basic</a>
+            </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn">Data Representation 
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a onclick="navigate('datarepresentation/bits.html', 'contentFrame')">Bits, Nybbles and Bytes</a>
+            <a onclick="navigate('datarepresentation/bases', 'contentFrame')">Number Bases</a>
+            <a onclick="navigate('datarepresentation/binarymath', 'contentFrame')">Binary Math</a>
+            <a onclick="navigate('datarepresentation/text.html', 'contentFrame')">Text</a>
+            <a onclick="navigate('datarepresentation/image.html', 'contentFrame')">Images</a>
+            <a onclick="navigate('datarepresentation/sound.html', 'contentFrame')">Sound</a>
+            </div>
+        </div>  -->
+    </nav>
+    <iframe id='contentFrame' src="ict.html"></iframe>
 </center>
 </body>
 </html>
