@@ -1,0 +1,30 @@
+p {
+    width: 80%;
+    margin: 20px;
+}
+.rgbInput {
+    display:block; 
+    width:500px;
+    margin-bottom: 30px;
+}
+#colourArea {
+    background-color: #000000;
+    width: 500px;
+    height: 300px;
+}
+td {
+    padding:10px;
+}
+table {
+    margin:10px;
+}
+tbody {
+    margin:10px;
+}
+.tableLabel {
+    text-align: center;
+    /* outline: solid 1px black; */
+}
+tr {
+    outline:none;
+}

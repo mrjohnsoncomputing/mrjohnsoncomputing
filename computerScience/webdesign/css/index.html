@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mr Johnson Computing - HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Rajdhani" rel="stylesheet">
+    <script type="text/javascript" src="https://dalestevenjohnson.github.io/domOperations/domOperations.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../mainStyle.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="../../../mainScript.js"></script>
+</head>
+<body>
+<center>
+    <nav class="navbar-side">
+        <a onclick="navigate('CSS.html', 'secondaryContentFrame')">CSS</a>
+        <a onclick="navigate('cssReferenceGuide.html', 'secondaryContentFrame')">Reference</a>
+        <a onclick="navigate('cssEvents.html', 'secondaryContentFrame')">Events</a>
+        <a onclick="navigate('cssSelectors.html', 'secondaryContentFrame')">Selectors</a>
+        <div class="dropdown-side">
+            <button class="dropbtn-side">Projects 
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content-side">
+                <a onclick="navigate('')">Easy</a>
+                <a onclick="navigate('')">Medium</a>
+                <a onclick="navigate('')">Difficult</a>
+            </div>
+        </div>
+    </nav>
+    <iframe id='secondaryContentFrame' src="CSS.html"></iframe>
+</center>
+</body>
+</html>
