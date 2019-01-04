@@ -23,16 +23,16 @@
         <h1 class="title">Mr Johnson</br>Computing</h1>
     </div>
     <nav class="navbar">
-        <a href="../">Home</a>
-        <a href="#news">News</a>
+        <a onclick="navigate('computerScience.html', 'contentFrame')">Home</a>
+        <a onclick="navigate('news', 'contentFrame')">News</a>
         <div class="dropdown">
             <button class="dropbtn">Web Design 
             <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-            <a onclick="navigate('html', 'contentFrame')">HTML</a>
-            <a href="#">CSS</a>
-            <a href="#">JavaScript</a>
+            <a onclick="navigate('webdesign/html', 'contentFrame')">HTML</a>
+            <a onclick="navigate('webdesign/css', 'contentFrame')">CSS</a>
+            <a onclick="navigate('webdesign/javascript', 'contentFrame')">JavaScript</a>
             </div>
         </div>
         <div class="dropdown">
@@ -40,9 +40,34 @@
             <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-            <a onclick="navigate('html', 'contentFrame')">Python</a>
-            <a href="#">Java</a>
-            <a href="#">Visual Basic</a>
+            <a onclick="navigate('programming/fundamentals', 'contentFrame')">Fundamentals</a>
+            <a onclick="navigate('programming/python', 'contentFrame')">Python</a>
+            <a onclick="navigate('programming/java', 'contentFrame')">Java</a>
+            <a onclick="navigate('programming/visualbasic', 'contentFrame')">Visual Basic</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Computer Systems 
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a onclick="navigate('programming/fundamentals', 'contentFrame')">Fundamentals</a>
+            <a onclick="navigate('programming/python', 'contentFrame')">Python</a>
+            <a onclick="navigate('programming/java', 'contentFrame')">Java</a>
+            <a onclick="navigate('programming/visualbasic', 'contentFrame')">Visual Basic</a>
+            </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn">Data Representation 
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a onclick="navigate('datarepresentation/bits.html', 'contentFrame')">Bits, Nybbles and Bytes</a>
+            <a onclick="navigate('datarepresentation/bases', 'contentFrame')">Number Bases</a>
+            <a onclick="navigate('datarepresentation/binarymath', 'contentFrame')">Binary Math</a>
+            <a onclick="navigate('datarepresentation/text', 'contentFrame')">Text</a>
+            <a onclick="navigate('datarepresentation/images', 'contentFrame')">Images</a>
+            <a onclick="navigate('datarepresentation/sound', 'contentFrame')">Sound</a>
             </div>
         </div> 
     </nav>
