@@ -1,0 +1,31 @@
+td {
+  padding:10px;
+  text-align: center;
+}
+table {
+  margin:10px;
+  width: 95vw;
+}
+tbody {
+  margin:10px;
+}
+.tableLabel {
+  text-align: center;
+  /* outline: solid 1px black; */
+}
+tr {
+  border:none;
+}
+
+tbody tr:hover {
+  background-color: #d4f0fc;
+}
+
+tbody tr:hover td {
+  outline: 5px solid #d4f0fc;
+}
+
+th {
+  font-size: 4vmin;
+}
+
