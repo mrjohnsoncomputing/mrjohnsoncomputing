@@ -1,9 +1,9 @@
 <?php include "../../../sideNavScript.php";?>
 <nav class="navbar-side">
-    <a onclick="navigate('computerScience/webdesign/css/index.php')">CSS</a>
-    <a onclick="navigate('computerScience/webdesign/css/cssReferenceGuide.php')">Reference</a>
-    <a onclick="navigate('computerScience/webdesign/css/cssEvents.php')">Events</a>
-    <a onclick="navigate('computerScience/webdesign/css/cssSelectors.php')">Selectors</a>
+    <a onclick="navigate('computerScience/webdesign/javascript/index.php')">Javascript</a>
+    <a onclick="navigate('computerScience/webdesign/javascript/javascriptReferenceGuide.php')">Reference</a>
+    <a onclick="navigate('computerScience/webdesign/javascript/jsDOM.php')">The DOM</a>
+    <a onclick="navigate('computerScience/webdesign/javascript/jsEvents.php')">Events</a>
     <div class="dropdown-side">
         <button class="dropbtn-side">Projects 
         <i class="fa fa-caret-down"></i>

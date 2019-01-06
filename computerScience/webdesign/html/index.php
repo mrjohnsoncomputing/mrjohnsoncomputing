@@ -1,5 +1,6 @@
 <?php include "../../navigation.php";?>
 <?php include "htmlNavigation.php";?>
+<?php include "../../../sideNavScript.php";?>
     <div class="contentArea">
     <center>
         <h1 class="pageTitle">HTML</h1>

@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Rajdhani" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="/mainStyle.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="/tableStyle.css"/>
+    <!-- Debug -->
     <script type="text/javascript" src="https://dalestevenjohnson.github.io/domOperations/domOperations.js"></script>
     <script src="/mainScript.js"></script>
 </head>
@@ -30,8 +31,8 @@
             </button>
             <div class="dropdown-content">
             <a onclick="navigate('computerScience/webdesign/html/index.php')">HTML</a>
-            <a onclick="navigate('webdesign/css', 'contentFrame')">CSS</a>
-            <a onclick="navigate('webdesign/javascript', 'contentFrame')">JavaScript</a>
+            <a onclick="navigate('computerScience/webdesign/css/index.php')">CSS</a>
+            <a onclick="navigate('computerScience/webdesign/javascript/index.php')">JavaScript</a>
             </div>
         </div>
         <div class="dropdown">
@@ -39,13 +40,13 @@
             <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-            <a onclick="navigate('programming/fundamentals', 'contentFrame')">Fundamentals</a>
-            <a onclick="navigate('programming/python', 'contentFrame')">Python</a>
-            <a onclick="navigate('programming/java', 'contentFrame')">Java</a>
-            <a onclick="navigate('programming/visualbasic', 'contentFrame')">Visual Basic</a>
+            <a onclick="navigate('computerScience/programming/fundamentals/index.php')">Fundamentals</a>
+            <a onclick="navigate('computerScience/programming/python/index.php')">Python</a>
+            <a onclick="navigate('computerScience/programming/java/index.php')">Java</a>
+            <a onclick="navigate('computerScience/programming/visualbasic/index.php')">Visual Basic</a>
             </div>
         </div>
-        <div class="dropdown">
+        <!-- <div class="dropdown">
             <button class="dropbtn">Computer Systems 
             <i class="fa fa-caret-down"></i>
             </button>
@@ -55,18 +56,18 @@
             <a onclick="navigate('programming/java', 'contentFrame')">Java</a>
             <a onclick="navigate('programming/visualbasic', 'contentFrame')">Visual Basic</a>
             </div>
-        </div> 
+        </div>  -->
         <div class="dropdown">
             <button class="dropbtn">Data Representation 
             <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-            <a onclick="navigate('datarepresentation/bits.html', 'contentFrame')">Bits, Nybbles and Bytes</a>
-            <a onclick="navigate('datarepresentation/bases', 'contentFrame')">Number Bases</a>
-            <a onclick="navigate('datarepresentation/binarymath', 'contentFrame')">Binary Math</a>
-            <a onclick="navigate('datarepresentation/text.html', 'contentFrame')">Text</a>
-            <a onclick="navigate('datarepresentation/image.html', 'contentFrame')">Images</a>
-            <a onclick="navigate('datarepresentation/sound.html', 'contentFrame')">Sound</a>
+            <a onclick="navigate('computerScience/datarepresentation/bits.php')">Bits, Nybbles and Bytes</a>
+            <a onclick="navigate('computerScience/datarepresentation/bases/index.php')">Number Bases</a>
+            <a onclick="navigate('computerScience/datarepresentation/binarymath/index.php')">Binary Math</a>
+            <a onclick="navigate('computerScience/datarepresentation/text.php.php')">Text</a>
+            <a onclick="navigate('computerScience/datarepresentation/image.php')">Images</a>
+            <a onclick="navigate('computerScience/datarepresentation/sound.php')">Sound</a>
             </div>
         </div> 
         </center>

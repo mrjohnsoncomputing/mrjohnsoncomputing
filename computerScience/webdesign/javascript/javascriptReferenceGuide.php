@@ -1,15 +1,15 @@
 <?php include "../../navigation.php";?>
-<?php include "cssNavigation.php";?>
+<?php include "jsNavigation.php";?>
 <div class="contentArea">
 <center>
-    <h1 class="pageTitle">CSS Reference Guide</h1>
+    <h1 class="pageTitle">Javascript Reference Guide</h1>
     <table>
         <thead>
             <tr>
                 <th>Function</th>
-                <th>Property</th>
+                <th>Tag</th>
                 <th>Description</th>
-                <th>Options</th>
+                <th>Example Code</th>
             </tr>
         </thead>
         <tbody>

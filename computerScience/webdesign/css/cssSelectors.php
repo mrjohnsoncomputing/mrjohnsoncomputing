@@ -1,5 +1,5 @@
 <?php include "../../navigation.php";?>
-<?php include "htmlNavigation.php";?>
+<?php include "cssNavigation.php";?>
 <div class="contentArea">
 <center>
     <h1 class="pageTitle">CSS Selectors</h1>
