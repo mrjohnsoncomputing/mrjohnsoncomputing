@@ -19,7 +19,7 @@
 <body>
 <center>
     <div id="titleBar">
-        <h1 class="title">Mr Johnson</br>Computing</h1>
+        <h1 class="title" onclick="navigate('index.html')">Mr Johnson</br>Computing</h1>
     </div>
     <nav class="navbar">
         <a onclick="navigate('ICT/index.php')">Home</a>
