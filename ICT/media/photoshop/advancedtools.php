@@ -78,4 +78,5 @@
         </tbody>
     </table> 
     </center>
+    </div>
 <?php include "../../footer.php";?>
