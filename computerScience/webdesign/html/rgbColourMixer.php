@@ -1,18 +1,35 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mr Johnson Computing - RGB Colour Mixer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Rajdhani" rel="stylesheet">
-    <script type="text/javascript" src="https://dalestevenjohnson.github.io/domOperations/domOperations.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../../../mainStyle.css" />
-</head>
-<body>
-
+<?php include "../../navigation.php";?>
+<?php include "htmlNavigation.php";?>
+<script>
+    function updateSliders() {
+        let sliders = document.getElementsByTagName("INPUT");
+        let red = sliders[0].value;
+        let green = sliders[1].value;
+        let blue = sliders[2].value;
+        let cols = ["red", "green", "blue"];
+        for (let i=0; i < cols.length; i++) {
+            let c = cols[i]
+            document.getElementById(`${c}SliderValue`).innerHTML=sliders[i].value;
+        }
+        let colourArea = document.getElementById("colourArea");
+        colourArea.style.backgroundColor = `rgb(${red},${green},${blue})`;
+    }
+    dom.onload(updateSliders);
+</script>
+<div class="contentArea">
 <center>
+    <style>
+        .rgbInput {
+            display:block; 
+            width:500px;
+            margin-bottom: 30px;
+        }
+        #colourArea {
+            background-color: #000000;
+            width: 500px;
+            height: 300px;
+        }
+    </style>
     <h1 class="pageTitle">RGB Colour Mixer</h1>
 
     <div>
@@ -46,26 +63,5 @@
 
     </div>
 </center>
-<script>
-    window.onload = function() {
-        updateSliders();
-    }
-
-
-    function updateSliders() {
-        let sliders = document.getElementsByTagName("INPUT");
-        let red = sliders[0].value;
-        let green = sliders[1].value;
-        let blue = sliders[2].value;
-        let cols = ["red", "green", "blue"];
-        for (let i=0; i < cols.length; i++) {
-            let c = cols[i]
-            document.getElementById(`${c}SliderValue`).innerHTML=sliders[i].value;
-        }
-        
-        let colourArea = document.getElementById("colourArea");
-        colourArea.style.backgroundColor = `rgb(${red},${green},${blue})`;
-    }
-</script>
-</body>
-</html>
+</div>
+<?php include "../../footer.php";?>
