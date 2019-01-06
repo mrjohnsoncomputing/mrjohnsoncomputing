@@ -1,19 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mr Johnson Computing - Advanced Tools</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Rajdhani" rel="stylesheet">
-    <script type="text/javascript" src="https://dalestevenjohnson.github.io/domOperations/domOperations.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../../../mainStyle.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../../../tableStyle.css"/>
-</head>
-<body>
-
-<center>
+<?php include "../../navigation.php";?>
+<?php include "psNavigation.php";?>
+    <div class="contentArea">
+    <center>
     <h1 class="pageTitle">Advanced Tools</h1>
     <table>
         <thead>
@@ -88,8 +76,6 @@
             </tr>
             
         </tbody>
-    </table>
-    
-</center>
-</body>
-</html>
+    </table> 
+    </center>
+<?php include "../../footer.php";?>

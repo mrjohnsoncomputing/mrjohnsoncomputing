@@ -11,11 +11,10 @@
     <meta name="ROBOTS" content="INDEX, FOLLOW">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Rajdhani" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="../mainStyle.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/mainStyle.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/tableStyle.css"/>
     <script type="text/javascript" src="https://dalestevenjohnson.github.io/domOperations/domOperations.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="../mainScript.js"></script>
-    <script src="script.js"></script>
+    <script src="/mainScript.js"></script>
 </head>
 <body>
 <center>
@@ -23,17 +22,16 @@
         <h1 class="title">Mr Johnson</br>Computing</h1>
     </div>
     <nav class="navbar">
-        <a onclick="navigate('ict.html', 'contentFrame')">Home</a>
-        <a onclick="navigate('news', 'contentFrame')">News</a>
+        <a onclick="navigate('ICT/index.php')">Home</a>
+        <a onclick="navigate('ICT/news/index.php')">News</a>
         <div class="dropdown">
             <button class="dropbtn">Media 
             <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-            <a onclick="navigate('media/mediator', 'contentFrame')">Mediator</a>
-            <a onclick="navigate('media/photoshop', 'contentFrame')">Photoshop</a>
-            <a onclick="navigate('media/moviemaker', 'contentFrame')">Movie Maker</a>
-            
+            <a onclick="navigate('ICT/media/mediator/index.php')">Mediator</a>
+            <a onclick="navigate('ICT/media/photoshop/index.php')">Photoshop</a>
+            <a onclick="navigate('ICT/media/moviemaker/index.php')">Movie Maker</a>
             </div>
         </div>
         <!-- <div class="dropdown">
@@ -72,7 +70,4 @@
             </div>
         </div>  -->
     </nav>
-    <iframe id='contentFrame' src="ict.html"></iframe>
 </center>
-</body>
-</html>
