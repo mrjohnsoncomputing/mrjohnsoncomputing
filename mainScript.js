@@ -1,10 +1,9 @@
-window.onload = function() {
-    let url = window.location.href;
-    if (url.indexOf("127") == -1) {
-        window.location.protocol = 'https'
-    }
-
-}
+// window.onload = function() {
+//     let url = window.location.href;
+//     if (url.indexOf("127") == -1) {
+//         window.location.protocol = 'https'
+//     }
+// }
 
 function setPage(folder) {
     const params = new URLSearchParams(window.location.search);

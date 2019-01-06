@@ -18,7 +18,7 @@
     <script src="script.js"></script>
 </head>
 <body>
-<center>
+
     <div id="titleBar">
         <h1 class="title">Mr Johnson</br>Computing</h1>
     </div>
@@ -71,7 +71,3 @@
             </div>
         </div> 
     </nav>
-    <iframe id='contentFrame' src="computerScience.html"></iframe>
-</center>
-</body>
-</html>
