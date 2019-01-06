@@ -65,7 +65,7 @@
             <a onclick="navigate('computerScience/datarepresentation/bits.php')">Bits, Nybbles and Bytes</a>
             <a onclick="navigate('computerScience/datarepresentation/bases/index.php')">Number Bases</a>
             <a onclick="navigate('computerScience/datarepresentation/binarymath/index.php')">Binary Math</a>
-            <a onclick="navigate('computerScience/datarepresentation/text.php.php')">Text</a>
+            <a onclick="navigate('computerScience/datarepresentation/text.php')">Text</a>
             <a onclick="navigate('computerScience/datarepresentation/image.php')">Images</a>
             <a onclick="navigate('computerScience/datarepresentation/sound.php')">Sound</a>
             </div>
