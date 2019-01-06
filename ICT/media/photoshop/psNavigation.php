@@ -1,5 +1,6 @@
 <?php include "../../../sideNavScript.php";?>
 <nav class="navbar-side">
+<a onclick="navigate('ICT/media/photoshop/index.php')">Photoshop</a>
 <a onclick="navigate('ICT/media/photoshop/newCanvas.php')">New Canvas</a>
 <a onclick="navigate('ICT/media/photoshop/layers.php')">Layers</a>
 <div class="dropdown-side">
