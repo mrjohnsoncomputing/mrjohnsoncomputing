@@ -6,7 +6,7 @@
     <table>
         <thead>
             <tr>
-                <th>Function</th>
+                <!-- <th>Function</th> -->
                 <th>Tag</th>
                 <th>Description</th>
                 <th>Example Code</th>
@@ -14,7 +14,7 @@
         </thead>
         <tbody>
             <tr>
-                <td rowspan="4" class="tableLabel">Page</td>
+                <!-- <td rowspan="4" class="tableLabel">Page</td> -->
                 <td >HTML</td>
                 <td>Tells the browser what language the page is written in.</td>
                 <td>&lt;html&gt;<br>&lt;/html&gt;</td>
@@ -35,7 +35,7 @@
                 <td>&lt;head&gt;<br>&lt;title&gt;My Title&lt;title&gt;<br>&lt;/head&gt;</td>
             </tr>
             <tr>
-                <td rowspan="12" class="tableLabel">Text</td>
+                <!-- <td rowspan="12" class="tableLabel">Text</td> -->
                 <td>BR</td>
                 <td>Adds a line break.</td>
                 <td>Line 1&lt;br&gt;Line 2</td>
@@ -108,13 +108,13 @@
                 <td>&lt;font color="red" face="verdana" size="10pt"&gt;My text&lt;/font&gt;</td>
             </tr>
             <tr>
-                <td>Image</td>
+                <!-- <td>Image</td> -->
                 <td>IMG</td>
                 <td>When you add the <b>src</b> attribute and specify a file path or web link, an image will display on your page</td>
                 <td>&lt;img src="myImage.jpg"&gt;</td>
             </tr>
             <tr>
-                <td>Link</td>
+                <!-- <td>Link</td> -->
                 <td>A</td>
                 <td><i>A</i> stands for Anchor, which is another word for a hyperlink. You can use the <b>href</b> attribute (hyperlink reference) to specify what page or file you want to link to.</td>
                 <td>Click &lt;a href="index.html"&gt;here&lt;/a&gt; to read more</td>

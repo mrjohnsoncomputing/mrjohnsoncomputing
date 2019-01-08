@@ -1,6 +1,7 @@
 td {
-  padding:10px;
+  padding:30px;
   text-align: center;
+  font-size: 3vmin;
 }
 table {
   margin:10px;
@@ -23,6 +24,7 @@ tbody tr:hover {
 
 tbody tr:hover td {
   outline: 5px solid #d4f0fc;
+  font-weight: bolder;
 }
 
 th {
