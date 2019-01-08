@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/tableStyle.css"/>
     <!-- Debug -->
     <!-- <script type="text/javascript" src="https://dalestevenjohnson.github.io/domOperations/domOperations.js"></script> -->
-    <script type="text/javascript" src="../../domOperations/domOperations.js"></script> 
+    <script type="text/javascript" src="../domOperations/domOperations.js"></script> 
     <script src="/mainScript.js"></script>
 </head>
 <body>
