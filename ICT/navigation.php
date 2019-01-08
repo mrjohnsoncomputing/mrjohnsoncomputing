@@ -13,7 +13,8 @@
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Rajdhani" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="/mainStyle.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="/tableStyle.css"/>
-    <script type="text/javascript" src="https://dalestevenjohnson.github.io/domOperations/domOperations.js"></script>
+    <!-- <script type="text/javascript" src="https://dalestevenjohnson.github.io/domOperations/domOperations.js"></script> -->
+    <script type="text/javascript" src="/domOperations/domOperations.js"></script> 
     <script src="/mainScript.js"></script>
 </head>
 <body>
