@@ -6,49 +6,54 @@
     <table>
         <thead>
             <tr>
-                <th>Function</th>
                 <th>Property</th>
                 <th>Description</th>
+                <th>Common Values</th>
                 <th>Options</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td rowspan="4" class="tableLabel">Page</td>
-                <td >HTML</td>
-                <td>Tells the browser what language the page is written in.</td>
-                <td>&lt;html&gt;<br>&lt;/html&gt;</td>
+                <td>height</td>
+                <td>The height of the selected element. Can be set in Pixels (px) for fixed sizes, or as a Percentage (%) to help your page scale better</td>
+                <td>Pixels, Percentage, Viewheight</td>
+                <td>height: 100px;</td>
             </tr>
             <tr>
-                <td>HEAD</td>
-                <td>Information about the page is put in here.</td>
-                <td>&lt;head&gt;<br>&lt;/head&gt;</td>
+                <td>width</td>
+                <td>The width of the selected element. Can be set in Pixels (px) for fixed sizes, or as a Percentage (%) to help your page scale better</td>
+                <td>100px, 30%, 10vh</td>
+                <td>width: 25%;</td>
             </tr>
             <tr>
-                <td>BODY</td>
-                <td>This is where all of your content goes.<br>Use the attribute <b>bgcolor</b> to change the colour of the page's background.</td>
-                <td>&lt;body bgcolor="red"&gt;<br>&lt;/body&gt;</td>
+                <td>background-color</td>
+                <td>The colour of the background of the element you are styling. </td>
+                <td>red, lightblue, #ffffff, rgba(100, 250, 50, 100)</td>
+                <td>background-colour: red;</td>
             </tr>
             <tr>
-                <td>TITLE</td>
-                <td>This puts the title on the top tab of the page.</td>
-                <td>&lt;head&gt;<br>&lt;title&gt;My Title&lt;title&gt;<br>&lt;/head&gt;</td>
+                <td >color</td>
+                <td>What colour the text should be written in - you can use words for general colours, or a <a href="">Hex Code</a> for greater precision.</td>
+                <td>red, lightblue, #ffffff, rgba(100, 250, 50, 100)</td>
+                <td>color: white;</td>
             </tr>
             <tr>
-                <td rowspan="12" class="tableLabel">Text</td>
-                <td>BR</td>
-                <td>Adds a line break.</td>
-                <td>Line 1&lt;br&gt;Line 2</td>
+                <td>text-align</td>
+                <td>Which side of the element the text should be aligned to.</td>
+                <td>left, right, center, justify</td></td>
+                <td>text-align: center;</td>
             </tr>
             <tr>
-                <td>P</td>
-                <td>Use for any normal text.</td>
-                <td>&lt;p&gt;My paragraph&lt;/p&gt;</td>
+                <td>font-size</td>
+                <td>Changes the size of the text in your selected element.</td>
+                <td>20px, 1.3em, 15%, 4vmin</td>
+                <td>font-size: 10px;</td>
             </tr>
             <tr>
-                <td>H1</td>
-                <td>Use for headings. <h1>H1 is the biggest</h1> <h6>H6 is the smallest</h6></td>
-                <td>&lt;h1&gt;My heading&lt;/h1&gt;</td>
+                <td>font-weight</td>
+                <td>Sets the boldness of your text. </td>
+                <td>normal, bolder, lighter, 100 - 900</td>
+                <td>font-weight: </td>
             </tr>
             <tr>
                 <td>CENTER</td>
@@ -114,7 +119,6 @@
                 <td>&lt;img src="myImage.jpg"&gt;</td>
             </tr>
             <tr>
-                <td>Link</td>
                 <td>A</td>
                 <td><i>A</i> stands for Anchor, which is another word for a hyperlink. You can use the <b>href</b> attribute (hyperlink reference) to specify what page or file you want to link to.</td>
                 <td>Click &lt;a href="index.html"&gt;here&lt;/a&gt; to read more</td>
