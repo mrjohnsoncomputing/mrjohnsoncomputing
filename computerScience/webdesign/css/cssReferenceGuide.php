@@ -53,9 +53,26 @@
                 <td>font-weight</td>
                 <td>Sets the boldness of your text. </td>
                 <td>normal, bolder, lighter, 100 - 900</td>
-                <td>font-weight: </td>
+                <td>font-weight: bold;</td>
             </tr>
-           
+            <tr>
+                <td>font-family</td>
+                <td>Sets the font of your text. </td>
+                <td>Arial, Times New Roman, Courier New</td>
+                <td>font-family: Arial;</td>
+            </tr>
+            <tr>
+                <td>padding</td>
+                <td>How much empty space between the edge of your element and the content inside.</td>
+                <td>10px, 5%</td>
+                <td>padding: 5px;</td>
+            </tr>
+            <tr>
+                <td>margin</td>
+                <td>Sets the space between the selected element and other elements</td>
+                <td>10px, 5%</td>
+                <td>margin: 20px;</td>
+            </tr>
         </tbody>
     </table>
 </center>
