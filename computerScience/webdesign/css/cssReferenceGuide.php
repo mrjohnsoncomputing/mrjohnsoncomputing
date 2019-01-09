@@ -73,6 +73,12 @@
                 <td>10px, 5%</td>
                 <td>margin: 20px;</td>
             </tr>
+            <tr>
+                <td>border</td>
+                <td>Adds a border around your element. Takes three properties: thickness, style and colour.</td>
+                <td>solid, dashed, dotted</td>
+                <td>border: 2px solid black;</td>
+            </tr>
         </tbody>
     </table>
 </center>
