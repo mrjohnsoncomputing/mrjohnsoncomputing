@@ -35,40 +35,5 @@
             <a onclick="navigate('ICT/media/moviemaker/index.php')">Movie Maker</a>
             </div>
         </div>
-        <!-- <div class="dropdown">
-            <button class="dropbtn">Programming 
-            <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-            <a onclick="navigate('programming/fundamentals', 'contentFrame')">Fundamentals</a>
-            <a onclick="navigate('programming/python', 'contentFrame')">Python</a>
-            <a onclick="navigate('programming/java', 'contentFrame')">Java</a>
-            <a onclick="navigate('programming/visualbasic', 'contentFrame')">Visual Basic</a>
-            </div>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn">Computer Systems 
-            <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-            <a onclick="navigate('programming/fundamentals', 'contentFrame')">Fundamentals</a>
-            <a onclick="navigate('programming/python', 'contentFrame')">Python</a>
-            <a onclick="navigate('programming/java', 'contentFrame')">Java</a>
-            <a onclick="navigate('programming/visualbasic', 'contentFrame')">Visual Basic</a>
-            </div>
-        </div> 
-        <div class="dropdown">
-            <button class="dropbtn">Data Representation 
-            <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-            <a onclick="navigate('datarepresentation/bits.html', 'contentFrame')">Bits, Nybbles and Bytes</a>
-            <a onclick="navigate('datarepresentation/bases', 'contentFrame')">Number Bases</a>
-            <a onclick="navigate('datarepresentation/binarymath', 'contentFrame')">Binary Math</a>
-            <a onclick="navigate('datarepresentation/text.html', 'contentFrame')">Text</a>
-            <a onclick="navigate('datarepresentation/image.html', 'contentFrame')">Images</a>
-            <a onclick="navigate('datarepresentation/sound.html', 'contentFrame')">Sound</a>
-            </div>
-        </div>  -->
     </nav>
 </center>
