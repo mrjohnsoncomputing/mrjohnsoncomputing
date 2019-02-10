@@ -6,9 +6,8 @@
     <title>Uh Oh!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Rajdhani" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../../style.css" />
-    <script src="../../domOperations.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="mainStyle.css" />
+    <script src="domOperations/domOperations.js"></script>
 </head>
 <body>
 
