@@ -1,43 +1,39 @@
 class Row { 
-  constructor() {
+  constructor(base) {
     let SQUARES = 8;
     this.squares = new Squares(SQUARES);
     let w = this.squares.array[0].size;
-    this.texts = new Texts(SQUARES, w);
+    this.texts = new Texts(SQUARES, w, base);
     this.dots = new Dots(w);
   }
-  
   changeColour() {
     this.dots.changeColour();
     this.squares.changeColour();
     this.texts.changeColour();
   }
-
   display() {
     this.squares.display();
     this.dots.display();
     this.texts.display();
   }
-  
   changeBinaries(dot) {
      let j = this.dots.getCurrentDot(dot);
      this.texts.changeBinaries(j);
   }
-  
-  clicked(x, y, s) {    
+  clicked(x, y, s, base) {    
     //Basic
     if (s == STATES[0]) {
-      this.squares.clicked(x,y);
+      this.squares.clicked(x,y,base);
     } else {
     //Not basic
      let dotClicked = this.dots.clicked(x,y);
      if (dotClicked == null) { 
-      this.squares.clicked(x,y);
+      this.squares.clicked(x,y,base);
       this.checkNegative(s);
       } else {
         if (dotClicked.pos.x == -1) {
           this.texts.resetBinaries();
-          this.dots.hide();
+          this.dots.hide(true);
         } else {
           this.changeBinaries(dotClicked);
         }
@@ -45,7 +41,6 @@ class Row {
       }
     }
   }
-  
   checkNegative(state) {
     let s = this.squares.array[0].text;
     if (state == STATES[1]) {

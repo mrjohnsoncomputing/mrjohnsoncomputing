@@ -3,7 +3,6 @@ class Dot extends Shape {
     super(x,y);
     this.size = 10;
   }
-  
   display() {
     if (!this.hidden) {
       noStroke();
@@ -19,7 +18,6 @@ class Dots {
     this.array = new Array(DOTS);
     this.makeDots(w);
   }
-  
   getCurrentDot(dot) {
     let j = 7;
     for (let i = 0; i < this.array.length; i++) {
@@ -30,13 +28,11 @@ class Dots {
     }
     return -1;
   }
-  
   changeColour() {
     for (let dot of this.array) {
       dot.changeColour();
     }
   }
-  
   makeDots(wd) {
     let w = wd;
     let x = w;
@@ -46,29 +42,26 @@ class Dots {
       this.array[i] = dot;
       x += w;
     }
-  }
-  
+  } 
   display() {
     for (let dot of this.array) {
       dot.display();
     }
   }
-  
   hide() {
     for (let dot of this.array) {
-      dot.hide();
+      dot.hide(true);
     }
   }
-  
   clicked(x, y) {
     for (let d of this.array) {
       if ((x > d.pos.x - (d.size*2)) && (x < d.pos.x + (d.size*2)) && (y > d.pos.y - (d.size*2)) && (y < d.pos.y + (d.size*2))) {
         if (!d.hidden) {
-          d.hide();
+          d.hide(true);
           return new Dot(-1,-1);
         } else {
           this.hide();
-          d.show();
+          d.show(true);
           return d;
         }
       }
