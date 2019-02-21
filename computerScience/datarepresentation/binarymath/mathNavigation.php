@@ -5,6 +5,7 @@
     <a onclick="navigate('computerScience/datarepresentation/binarymath/subtraction.php')">Subtraction</a>
     <a onclick="navigate('computerScience/datarepresentation/binarymath/multiplication.php')">Multiplication</a>
     <a onclick="navigate('computerScience/datarepresentation/binarymath/division.php')">Division</a>
+    <a onclick="navigate('computerScience/datarepresentation/binarymath/binaryTool.php')">Interactive Tool</a>
     <!-- <div class="dropdown-side">
         <button class="dropbtn-side">Projects 
         <i class="fa fa-caret-down"></i>
