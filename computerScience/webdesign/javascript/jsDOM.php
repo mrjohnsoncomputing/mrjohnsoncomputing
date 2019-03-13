@@ -3,6 +3,10 @@
     <div class="contentArea">
     <center>
         <h1 class="pageTitle">The DOM</h1>
+        <video controls>
+            <source src="media/dom.mp4" type="video/mp4">
+            Your browser does not support the video tag. MrJohnsonComputing is optimised for Google Chrome.
+        </video>
         <p>DOM stands for Document Object Model, and it simply refers to the structure of your HTML page. For instance, every HTML page with start with a <code>&lt;HEAD&gt;</code> and end with a <code>&lt;BODY&gt;</code>.</p>
         <p>The whole page is referred to as a document. When the browser interprets your HTML, it creates a DOM. This means it knows what the structure of the page is, and we can use JavaScript to access and manipulate it.</p>
         <img src="media/document.png" width="300px" alt="Result of typing document into the console" class="floatRight">
