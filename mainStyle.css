@@ -378,3 +378,9 @@ video {
   .dropdown-side:hover .dropdown-content-side {
     display: block;
   }
+
+
+#youtube_video {
+  width: 500px;
+  height: 300px;
+}

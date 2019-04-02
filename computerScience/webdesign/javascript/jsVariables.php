@@ -3,12 +3,12 @@
     <div class="contentArea">
     <center>
         <h1 class="pageTitle">Javascript Basics</h1>
-        
         <h2 class="subtitle">Declaring a Variable</h2>
-        <video controls>
+        <iframe id="youtube_video" src="https://www.youtube.com/embed/jwC5xk10wa4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- <video controls>
             <source src="media/variables.mp4" type="video/mp4">
             Your browser does not support the video tag. MrJohnsonComputing is optimised for Google Chrome.
-        </video>
+        </video> -->
         <p>When we declare a variable, we are telling the computer to allocate some memory to store a value.</p>
         <p>Some computer languages, like Visual Basic and Java, want you to tell the computer exactly what data type you are going to be using in that variable so that it can have a rough idea of how much memory it would need to set aside for your variable. Other languages, like Python and JavaScript, don’t make you do this.</p>
         <p>A variable declaration is a simple as this:</p>

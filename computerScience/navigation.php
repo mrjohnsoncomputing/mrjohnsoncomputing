@@ -10,6 +10,7 @@
     <meta name="keywords" content="Mr Johnson Computing, computer science teacher, computer science kent, secondary school computer science">
     <meta name="ROBOTS" content="INDEX, FOLLOW">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Rajdhani" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="/mainStyle.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="/tableStyle.css"/>

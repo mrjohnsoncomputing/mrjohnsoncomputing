@@ -3,10 +3,11 @@
     <div class="contentArea">
     <center>
         <h1 class="pageTitle">The Chrome Developer Tools</h1>
-        <video controls>
+        <iframe id="youtube_video" src="https://www.youtube.com/embed/Gx19Bg9H9wY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- <video controls>
             <source src="media/devTools.mp4" type="video/mp4">
             Your browser does not support the video tag. MrJohnsonComputing is optimised for Google Chrome.
-        </video>
+        </video> -->
         
         <p>Let me introduce you to your new best friend - the chrome developer tools. Each browser has its own developer tools, but Chrome’s are especially good. Suffice it to say, we will be working in Google Chrome for this. </p>
         <p>In Google Chrome, press the F12 button on your keyboard. After a few seconds, a section should pop out of the right hand side of your browser window.</p>

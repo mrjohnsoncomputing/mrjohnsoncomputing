@@ -3,10 +3,11 @@
     <div class="contentArea">
     <center>
         <h1 class="pageTitle">Javascript Events</h1>
-        <video controls>
+        <iframe id="youtube_video" src="https://www.youtube.com/embed/fix939H4Sv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- <video controls>
             <source src="media/domEvents.mp4" type="video/mp4">
             Your browser does not support the video tag. MrJohnsonComputing is optimised for Google Chrome.
-        </video>
+        </video> -->
         
         <p>Browsers these days do more than just read your code, they also monitor all user input and record them, even something as simple as the mouse moving over the page, and your browser broadcasts these events which are available for you to pick up, inspect and use should you wish.</p>
         <p>Let’s have a look at a simple event - the mouse moving. We are going to attach what we call an “Event Listener” to the body of our document. “Event Listener” essentially means that we tell the browser what to do should a certain event happen at the defined location. For this example, our location is going to be the whole webpage - the body - and we want to check for the event of the mouse moving.</p>
