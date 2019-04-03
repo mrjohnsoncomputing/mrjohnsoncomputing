@@ -29,6 +29,7 @@
             <a onclick="navigate('computerScience/webdesign/javascript/button.php')">Button</a>
             <a onclick="navigate('computerScience/webdesign/javascript/input.php')">Input</a>
             <a onclick="navigate('computerScience/webdesign/javascript/select.php')">Select</a>
+            <a onclick="navigate('computerScience/webdesign/javascript/slider.php')">Slider</a>
         </div>
     </div>
 </nav>
