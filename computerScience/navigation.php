@@ -46,6 +46,7 @@
             <a onclick="navigate('computerScience/programming/python/index.php')">Python</a>
             <a onclick="navigate('computerScience/programming/java/index.php')">Java</a>
             <a onclick="navigate('computerScience/programming/visualbasic/index.php')">Visual Basic</a>
+            <a onclick="navigate('computerScience/programming/haskell/index.php')">Haskell</a>
             </div>
         </div>
         <!-- <div class="dropdown">
