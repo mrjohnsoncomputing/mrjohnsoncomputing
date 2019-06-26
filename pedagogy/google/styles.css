@@ -1,0 +1,68 @@
+.table {
+    width: 80%;
+    margin: 20px;
+}
+
+.cell, .header {
+    padding: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-clip: padding-box; /* this has been added */
+    border-radius: 80px;
+    font-size: 30px;
+    min-width: 200px;
+}
+
+.cell:hover, .header:hover {
+    background-color: bisque;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.header {
+    column-span: all;
+    font-family: 'Anton', sans-serif;
+}
+
+.cell {
+    font-family: 'Asap', sans-serif;
+}
+
+#info-box {
+    display: none;
+    padding: 10px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    min-height: 50px;
+    left: 100px;
+    top: 100px;
+    background-color: orange;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.infoText {
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+#center {
+    position:relative;
+    
+}
+
+h1 {
+    width: 80%;
+    min-width: 500px;
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+}
+footer {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
