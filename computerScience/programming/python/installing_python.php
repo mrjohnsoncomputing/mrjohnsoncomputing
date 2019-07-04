@@ -2,7 +2,8 @@
 <?php include "pythonNavigation.php";?>
 <div class="contentArea">
     <center>
-        <h1 class="pageTitle">Loops in Python</h1>
+        <h1 class="pageTitle">Installing Python</h1>
+        <iframe id="youtube_video" src="https://www.youtube.com/embed/tHEA9bJBBuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p>Firstly - We are going to install a package manager!</p>
         <p>Why?! Because it will streamline your experience with installing any application, and will make you look like an absolute hacker when you do it off the top of your head in front of family members!</p>
 

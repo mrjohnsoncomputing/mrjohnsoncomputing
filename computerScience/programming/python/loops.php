@@ -2,8 +2,8 @@
 <?php include "pythonNavigation.php";?>
 <div class="contentArea">
     <center>
-        <h1 class="pageTitle">Installing Python</h1>
-        <p>A quick guide to installing Python</p>
+        <h1 class="pageTitle">Loops in Python</h1>
+        <p>A quick guide to Loops in Python</p>
     </center>
 </div>
 <?php include "../../footer.php";?>
