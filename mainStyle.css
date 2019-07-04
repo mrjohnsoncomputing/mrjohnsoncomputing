@@ -178,6 +178,22 @@ video {
   margin: 50px;
 }
 
+.code-title {
+  font-size: 3vmin;
+  color: #66cc22;
+  font-family: 'Press Start 2P', cursive;
+  margin: 10px;
+  text-align: left;
+}
+.code {
+  border-radius: 90px;
+  border: 2px black thick;
+  background: black;
+  color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
   /* ####### */
  /* IDs */
 /* ####### */

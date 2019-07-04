@@ -1,9 +1,9 @@
 <?php include "../../navigation.php";?>
 <?php include "pythonNavigation.php";?>
-    <div class="contentArea">
+<div class="contentArea">
     <center>
-        <h1 class="pageTitle">Loops in Python</h1>
-        <p>All about Loops in Python</p>
+        <h1 class="pageTitle">Installing Python</h1>
+        <p>A quick guide to installing Python</p>
     </center>
-    </div>
+</div>
 <?php include "../../footer.php";?>

@@ -5,6 +5,7 @@
     <a onclick="navigate('computerScience/programming/python/functions.php')">Functions</a>
     <a onclick="navigate('computerScience/programming/python/loops.php')">Loops</a>
     <a onclick="navigate('computerScience/programming/python/selection.php')">Selection</a>
+    <a onclick="navigate('computerScience/programming/python/installing_python.php')">Installing Python</a>
     <!-- <div class="dropdown-side">
         <button class="dropbtn-side">Projects 
         <i class="fa fa-caret-down"></i>
